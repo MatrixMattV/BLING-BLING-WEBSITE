@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    color: aliceblue;
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.ring-info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-ring {
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.text-ring h1 {
+    max-width: 600px;
+    font-size: 3rem;
+}
+
+.text-ring p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.ring-pic {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.ring {
+    position: absolute;
+    max-width: 650px;
+    left: -250px;
+    border-radius: 16px;
+    bottom: 2px;
+}
+
+.watch-info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-watch {
+    max-width: 1200px;
+    color: aliceblue;
+    margin-top: 70px;
+}
+
+.text-watch h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.text-watch p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.watch-pic {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+.watch {
+    position: absolute;
+    max-width: 450px;
+    left: -150px;
+    border-radius: 16px;
+}
+
+.necklace-info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-necklace {
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.text-necklace h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.text-necklace p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.necklace-pic {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-top: 150px;
+}
+
+.necklace {
+    position: absolute;
+    max-width: 450px;
+}
+
+.earring-info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-earring {
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.text-earring h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.text-earring p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.earring-pic {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 80px;
+}
+
+.earring {
+    position: absolute;
+    max-width: 450px;
+    left: -150px;
+    border-radius: 16px;
+}
